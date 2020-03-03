@@ -1,0 +1,64 @@
+/**
+ CSS Assesment
+ **/
+
+* {
+	box-sizing: border-box;
+	text-align: center;
+	vertical-align: middle;
+}
+
+body {
+	font-size: 24px;
+	line-height: 2px;
+	color: #333;
+}
+
+header {
+	padding: 10px;
+	margin-bottom: 20px;
+	background: #a7aeb5 ;
+	color: black;
+	width: 100%;
+}
+
+section {
+	
+	padding: 20px; 
+	margin-bottom: 20px;
+	
+}
+
+#left {
+	background: blue;
+	float: left;
+	
+	padding: 150px;
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+
+#right {
+	background: red;
+	float: right;
+	
+	padding: 150px; 
+	margin-bottom: 20px;
+	width: 25%;
+}
+
+#division {
+	padding: 20px;
+}
+
+
+footer {
+	padding: 10px;
+	
+	margin-top: 500px;
+	color: black;
+	background: #288246;
+	width: 100%;
+	clear: both;
+}
