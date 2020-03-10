@@ -1,0 +1,231 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: left;
+  
+}
+
+body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+  background-image: url('oriental-tiles.png');
+  font-family: 'Arial', Helvetica Neue, Helvetica, sans-serif;
+  
+  
+  
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  
+}
+
+h1 {
+	text-align: left;
+	font-size: 42px;
+}
+
+section {
+	
+	padding: 20px; 
+	margin-bottom: 20px;
+	
+}
+
+#left {
+	background: #30948D;
+	float: left;
+	
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 33%;
+}
+
+#middle {
+	background: #9e1212;
+	float: left;
+	
+	padding: 20px;
+	margin: 0 auto;
+	width: 33%;
+}
+
+#right {
+	background: #30948D;
+	float: left;
+	
+	padding: 20px; 
+	margin-bottom: 20px;
+	width: 34%;
+}
+
+#full {
+	color: white;
+	margin-left: -40px;
+	clear: both;
+	padding: 20px;
+	height: 200px;
+	float: left;
+}
+
+#full2 {
+	color: white;
+	margin-left: -20px;
+	clear: both;
+	padding: 20px;
+	height: 200px;
+	float: left;
+}
+
+#division {
+	background: #6ea3da;
+	width: 100%;
+	height: 70px;
+	padding: 20px;
+}
+
+#division2 {
+	background: #cccccc;
+	width: 100%;
+	height: 4px;
+	padding: 4px;
+	margin-bottom: 20px;
+}
+
+aside {
+	background: green;
+	width: 33%;
+	height: 150px;
+	
+	padding: 0px;
+	margin-left: 50px;
+	float:left;
+}
+
+footer {
+	padding: 20px;
+	margin-top: 42%;
+	color: #FFF;
+	background: #666666;
+	height: 68px;
+	
+	width: 100%;
+	text-align: center;
+	
+	
+  position: absolute;
+  bottom: 0;
+ 
+            /* Footer height */
+
+}
+
+h1 {
+	color: #4aaaa5;
+}
+
+/*
+  The width of the wrapper will be 1024px
+  at browser widths above 768px
+*/
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+
+  /* Positioning */
+  margin: 40px auto;
+  margin-left: 405px;
+}
+
+
+
+#main-content,
+#sidebar {
+  /* Box-model */
+  width: 960px;
+  padding: 30px;
+}
+
+#main-content {
+  /* Positioning */
+  float: left;
+
+  /* Visual */
+  background: #ffffff;
+  border-color: #dddddd;
+  border-style: solid;
+}
+
+#sidebar {
+  /* Positioning */
+  float: right;
+
+  /* Visual */
+  background: #eee;
+}
+
+
+.box {
+  
+  /**border: 2px solid black; **/
+  width: 100%;
+  position: absolute;
+  height: 66px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Box rules: percentages define anchors (i.e. position of each box relative to browser window) */
+
+.box-1 {
+  top: 0%;
+  left: 0%;
+  background: #ffffff;
+  text-align: center;
+}
+
+
+.box-2 {
+  
+  left: 21%;
+  background: #4aaaa5;
+  color:white;
+  text-align: center;
+  
+  padding: 14px;
+  width: 200px;
+  display: table-cell;
+  vertical-align: middle;
+  
+  position: absolute;
+  top: 0;
+}
+
+
+.box-3 {
+  padding: 20px;
+  margin-top: 41%;
+  background: #4aaaa5;
+  height: 12px;
+   
+   width: 100%;
+   bottom: 30px;
+   
+}
+
+.rotateimg90 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
